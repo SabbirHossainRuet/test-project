@@ -1,0 +1,30 @@
+.app-container {
+  padding: 20px;
+}
+
+.property-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.property-box {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.property-box h2 {
+  margin-bottom: 10px;
+}
+
+.property-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.property-box ul li {
+  margin-bottom: 5px;
+}
